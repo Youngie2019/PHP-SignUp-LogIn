@@ -1,0 +1,197 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+  box-sizing: border-box;
+}
+
+.error{
+	color:red;
+}
+
+.confirmedMessage{
+  color: red;
+}
+
+#pagewrapper{
+  margin: auto;
+  width: 50%;
+}
+
+.image{
+    height:auto;
+    width:100%;
+}
+
+.home-image{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+.form{
+  width: 100%;
+}
+
+.formfield{
+  width: 100%;
+}
+
+#register{
+  color: white;
+  background-color:red;
+  cursor: pointer;
+  border-radius:5px;
+  padding: 1vw 2vw 1vw 2vw;
+}
+
+
+
+input{
+  font-size:1vw;
+  padding:1vw;
+  border-radius: 7px;
+  border: 6px solid red;
+}
+
+
+
+
+.button-style{
+    background-color:red;
+    color:white;
+	font-size:1vw;
+  	padding:1vw;
+  	border-radius: 7px;
+  	border: 6px solid red;
+/*    border:none;*/
+}
+
+.formSubmitted-Errmessage{
+	background-color: red;
+	border-radius: 1vw;
+	color: white;
+	padding: 3vw;
+}
+
+.homeheader{
+	background-color: red;
+	padding: 1.25vw;
+	margin: 0px;
+	border: 0px;
+}
+
+#nav-bar{
+	float: right;
+	color: white;
+	padding: 0;
+}
+
+.nav-list-wrapper{
+	color: white;
+	float: right;
+	list-style-type: none;
+  	margin: 0;
+  	padding-top: 1vw;
+
+}
+
+.nav-element {
+    display: inline;
+	font-size: 1.5vw;
+	padding: 2vw;
+}
+
+#welcome{
+	color:red;
+	font-size: 2vw;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 451px) {
+	#pagewrapper{
+	  width: 80%;
+	}
+
+	.button-style{
+		font-size: 3vw;
+	}
+
+	input{
+		font-size: 3vw;
+	}
+
+	.nav-element {
+		font-size: 1.65vw;
+		padding: 1vw;
+	}
+
+	#welcome{
+		font-size: 3vw;
+		margin-top: 5vw;
+	}
+
+	.confirmedMessage{
+  		color: red;
+		font-size: 3vw;
+	}
+
+}
+
+
+@media only screen and (max-width: 450px) {
+	#pagewrapper{
+	  width: 95%;
+	}
+
+	.button-style{
+		font-size: 5vw;
+		padding: 2;
+	}
+
+	input{
+		font-size: 5vw;
+		padding: 2vw
+	}
+
+	.homeheader{
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.home-image{
+		width: 100%;
+		height: auto;
+	}
+
+	.nav-list-wrapper{
+		width: 100%;
+		float: none;
+		padding: 0;
+	}
+
+	.nav-element{
+		display: block;
+		text-align: center;
+		padding: 1vw;
+		font-size: 5vw;
+	}
+
+	.nav-pipe{
+		display: none;
+
+	}
+
+	.bring-it{
+		padding: 0px;
+	}
+
+	#welcome{
+		font-size: 5vw;
+		margin-left: 3vw;
+		margin-top: 10vw;
+	}
+
+	.confirmedMessage{
+		font-size: 5vw;
+	}
+}
